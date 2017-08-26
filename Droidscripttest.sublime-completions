@@ -122,9 +122,23 @@
 		{"trigger": ".GetContext", "contents": ".GetContext()" }
 
 		//Image
-/*
+
 		{"trigger": ".Clear", "contents": ".Clear()" },
 		{"trigger": ".SetAlpha", "contents": ".SetAlpha(alpha)" },//weiter
+		{"trigger": ".SetImage", "contents": ".SetImage(fileName,width,height)" },
+		{"trigger": ".SetOnLoad", "contents": ".SetOnLoad(callback)" },
+		{"trigger": ".Save", "contents": ".Save(fileName)" },
+		{"trigger": ".GetAbsHeight", "contents": ".GetAbsHeight()" },
+		{"trigger": ".GetAbsWidth", "contents": ".GetAbsWidth()" },
+		{"trigger": ".SetMaxRate", "contents": ".SetMaxRate(ms)" },
+		{"trigger": ".SetOnLongTouch", "contents": ".SetOnLongTouch(callback)" },
+		{"trigger": ".DrawImageMtx", "contents": ".DrawImageMtx(image,matrix)" },
+		{"trigger": ".DrawPoint", "contents": ".DrawPoint(x,y)" },
+		{"trigger": ".DrawCircle", "contents": ".DrawCircle(x,y,radius)" },
+		{"trigger": ".DrawArc", "contents": ".DrawArc(x1,y1,x2,y2,start,sweep)" },
+		{"trigger": ".DrawLine", "contents": ".DrawLine(x1,y1,x2,y2)" },
+		{"trigger": ".DrawRectangle", "contents": ".DrawRectangle(x1,y1,x2,y2)" },
+		{"trigger": ".DrawText", "contents": ".DrawText" },
 		{"trigger": "", "contents": "" },
 		{"trigger": "", "contents": "" },
 		{"trigger": "", "contents": "" },
@@ -133,6 +147,13 @@
 		{"trigger": "", "contents": "" },
 		{"trigger": "", "contents": "" },
 		{"trigger": "", "contents": "" },
+		{"trigger": "", "contents": "" },
+		{"trigger": "", "contents": "" },
+		{"trigger": "", "contents": "" },
+		{"trigger": "", "contents": "" },
+		{"trigger": "", "contents": "" },
+		{"trigger": "", "contents": "" },
+
 
 		*/
 	]
