@@ -1,0 +1,139 @@
+/*
+	Droidscript IDE for sublime text
+*/
+
+{
+	"scope": "source.js",
+
+	"completions":
+	[
+		{"trigger": "app.AddDrawer", "contents": "app.AddDrawer(layout, side, width)" },
+
+		{"trigger": "app.AddLayout", "contents": "app.AddLayout(layout)" },
+
+		{"trigger": "app.Alert", "contents": "app.Alert(text, title)" },
+
+		//AudioRecorder
+
+		{"trigger": "app.CreateAudioRecorder", "contents": "app.CreateAudioRecorder()" },
+		{"trigger": ".SetFile", "contents": ".SetFile(filename)" },
+		{"trigger": ".Start", "contents": ".Start()" },
+		{"trigger": ".Stop", "contents": ".Stop()" },
+		{"trigger": ".Pause", "contents": ".Pause()" },
+		{"trigger": ".GetRMS", "contents": ".GetRMS()" }, 
+
+		//Buttons
+
+		{"trigger": "app.CreateButton", "contents": "app.CreateButton(text,width,height,options)" }, 
+		{"trigger": ".SetVisibility", "contents": ".SetVisibility(visibility)" },
+		{"trigger": ".SetPadding", "contents": ".SetPadding(left,top,right,bottom)" },
+		{"trigger": ".SetMargins", "contents": ".SetMargins(left,top,right,bottom)" },
+		{"trigger": ".SetPosition", "contents": ".SetPosition(left,top,width,height)" }, 
+		{"trigger": ".SetSize", "contents": ".SetSize(width,height)" },
+		{"trigger": ".GetWidth", "contents": ".GetWidth()" },
+		{"trigger": ".GetHeight", "contents": ".GetHeight()" },
+		{"trigger": ".SetOnTouch", "contents": ".SetOnTouch(callback)" }, 
+		{"trigger": ".SetText", "contents": ".SetText(text)" }, 
+		{"trigger": ".SetHtml", "contents": ".SetHtml(html)" }, 
+		{"trigger": ".GetText", "contents": ".GetText()" }, 
+		{"trigger": ".SetTextColor", "contents": ".SetTextColor(colorcode)" }, 
+		{"trigger": ".SetTextSize", "contents": ".SetTextSize(size)" }, 
+		{"trigger": ".GetTextSize", "contents": ".GetTextSize()" }, 
+		{"trigger": ".SetFonFile", "contents": ".SetFile(file)" }, 
+		{"trigger": ".SetTextShadow", "contents": ".SetTextShadow(radius" }, 
+
+		//Camera
+
+		{"trigger": "app.CreateCameraView", "contents": "app.CreateCameraView(width,height,options)" }, 
+		{"trigger": ".getVisibility", "contents": ".getVisibility()" }, 
+		{"trigger": ".StartPreview", "contents": ".StartPreview()" }, 
+		{"trigger": ".StopPreview", "contents": ".StopPreview()" }, 
+		{"trigger": ".Focus", "contents": ".Focus()" }, 
+		{"trigger": ".SetFocusMode", "contents": ".SetFocusMode(mode)" }, 
+		{"trigger": ".SetPictureSize", "contents": ".SetPictureSize(width,height)" }, 
+		{"trigger": ".GetPictureSize", "contents": ".GetPictureSize()" }, 
+		{"trigger": ".SetColorEffect", "contents": ".SetColorEffect(effect)" }, 
+		{"trigger": ".GetColorEffects", "contents": ".GetColorEffects()" }, 
+		{"trigger": ".TakePicture", "contents": ".TakePicture(fileName)" }, 
+		{"trigger": ".Stream", "contents": ".Stream(ip,port,quality,fps,mtu)" }, 
+		{"trigger": ".SetFlash", "contents": ".SetFlash(onoff)" }, 
+		{"trigger": ".SetSound", "contents": ".SetSound(onoff)" },
+		{"trigger": ".GetImageWidth", "contents": ".GetImageWidth()" }, 
+		{"trigger": ".GetImageHeight", "contents": ".GetImageHeight()" }, 
+		{"trigger": ".GetCameraCount", "contents": ".GetCameraCount()" }, 
+		{"trigger": ".SetPreviewImage", "contents": ".SetPreviewImage(imageObj)" }, 
+		{"trigger": ".MotionMosaic", "contents": ".MotionMosaic(xtiles,ytiles,sensitivity,minPeriod,imageObj)" }, 
+		{"trigger": ".ReportColors", "contents": ".ReportColors(list,callback,sampSize,maxRate)" }, 
+		{"trigger": ".AutoCapture", "contents": ".AutoCapture(folder,fileName,maxCount)" }, 
+		{"trigger": ".SetOnReady", "contents": ".SetOnReady(callback)" }, 
+		{"trigger": ".SetOnMotion", "contents": ".SetOnMotion(callback)" }, 
+		{"trigger": ".SetOnFocus", "contents": ".SetOnFocus()" }, 
+		{"trigger": ".GetPixelData", "contents": ".GetPixelData(format,left,top,width,height)" }, 
+		{"trigger": ".FindFaces", "contents": ".FindFaces(maxFaces)" }, 
+
+		//Checkbox
+
+		{"trigger": "app.CreateCheckbox", "contents": "app.CreateCheckbox(text)" }, 
+		{"trigger": ".SetChecked", "contents": ".SetChecked(checked)" }, 
+		{"trigger": ".GetChecked", "contents": ".GetChecked()" }, 
+
+		//Crypt
+
+		{"trigger": "app.CreateCrypt", "contents": "app.CreateCrypt(options)" }, 
+		{"trigger": ".Decrypt", "contents": ".Decrypt(text,password)" }, 
+		{"trigger": ".Encrypt", "contents": ".Encrypt(text,password)" }, 
+		{"trigger": ".GetType", "contents": ".GetType()" }, 
+		{"trigger": ".Hash", "contents": ".Hash(text,mode,options)" }, 
+		{"trigger": ".Release", "contents": ".Release()" }, 
+
+		//Dialog
+
+		{"trigger": "app.CreateDialog", "contents": "app.CreateDialog(title,options)" }, 
+		{"trigger": ".RemoveLayout", "contents": ".RemoveLayout(layout)" }, 
+		{"trigger": ".SetTitle", "contents": ".SetTitle(title)" }, 
+		{"trigger": ".AdjustColor", "contents": ".AdjustColor(hue,sat,bright,const)" }, 
+		{"trigger": ".Show", "contents": ".Show()" }, 
+		{"trigger": ".Hide", "contents": ".Hide()" }, 
+		{"trigger": ".Dismiss", "contents": ".Dismiss()" },
+		{"trigger": ".SetBackColor", "contents": ".SetBackColor(clr)" }, 
+		{"trigger": ".SetBackground", "contents": ".SetBackground(file,options)" }, 
+		{"trigger": ".SetOnCancel", "contents": ".SetOnCancel(callback)" }, 
+
+		//Downloader
+
+		{"trigger": "app.CreateDownloader", "contents": "app.CreateDownloader()" }, 
+		{"trigger": ".Download", "contents": ".Download(sourceURL,desDir)" }, 
+		{"trigger": ".GetProgress", "contents": ".GetProgress()" }, 
+		{"trigger": ".GetSize", "contents": ".GetSize()" }, 
+		{"trigger": ".IsComplete", "contents": ".IsComplete()" }, 
+		{"trigger": ".SetOnComplete", "contents": ".SetOnComplete(callback)" }, 
+
+		//GLView
+
+		{"trigger": "app.CreateGLView", "contents": "app.CreateGLView(width,height,options)" }, 
+		{"trigger": ".SetOnTouchUp", "contents": "SetOnTouchUp(callback)" },
+		{"trigger": ".SetOnTouchMove", "contents": ".SetOnTouchMove(callback)" },
+		{"trigger": ".SetOnTouchDown", "contents": "SetOnTouchDown(callback)" },
+		{"trigger": ".SetTouchable", "contents": ".SetTouchable(touchable)" },
+		{"trigger": ".DrawImage", "contents": ".DrawImage(image,x,y,width,height,angle)" },
+		{"trigger": ".DrawSprite", "contents": ".DrawSprite(sheet,sx,sy,sw,sh,dx,dy,dw,dh)" },
+		{"trigger": ".CreateImage", "contents": ".CreateImage(fileName,callback)" },
+		{"trigger": ".Render", "contents": ".Render()" },
+		{"trigger": ".GetContext", "contents": ".GetContext()" },
+
+		//Image
+
+		{"trigger": ".Clear", "contents": ".Clear()" },
+		{"trigger": ".SetAlpha", "contents": ".SetAlpha(alpha)" },//weiter
+		{"trigger": "", "contents": "" },
+		{"trigger": "", "contents": "" },
+		{"trigger": "", "contents": "" },
+		{"trigger": "", "contents": "" },
+		{"trigger": "", "contents": "" },
+		{"trigger": "", "contents": "" },
+		{"trigger": "", "contents": "" },
+		{"trigger": "", "contents": "" },
+
+		*/
+	]
+}
