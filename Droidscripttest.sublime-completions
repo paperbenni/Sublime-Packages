@@ -119,10 +119,10 @@
 		{"trigger": ".DrawSprite", "contents": ".DrawSprite(sheet,sx,sy,sw,sh,dx,dy,dw,dh)" },
 		{"trigger": ".CreateImage", "contents": ".CreateImage(fileName,callback)" },
 		{"trigger": ".Render", "contents": ".Render()" },
-		{"trigger": ".GetContext", "contents": ".GetContext()" },
+		{"trigger": ".GetContext", "contents": ".GetContext()" }
 
 		//Image
-
+/*
 		{"trigger": ".Clear", "contents": ".Clear()" },
 		{"trigger": ".SetAlpha", "contents": ".SetAlpha(alpha)" },//weiter
 		{"trigger": "", "contents": "" },
