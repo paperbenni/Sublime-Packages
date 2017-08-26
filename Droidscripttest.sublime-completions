@@ -119,12 +119,12 @@
 		{"trigger": ".DrawSprite", "contents": ".DrawSprite(sheet,sx,sy,sw,sh,dx,dy,dw,dh)" },
 		{"trigger": ".CreateImage", "contents": ".CreateImage(fileName,callback)" },
 		{"trigger": ".Render", "contents": ".Render()" },
-		{"trigger": ".GetContext", "contents": ".GetContext()" }
+		{"trigger": ".GetContext", "contents": ".GetContext()" },
 
 		//Image
 
 		{"trigger": ".Clear", "contents": ".Clear()" },
-		{"trigger": ".SetAlpha", "contents": ".SetAlpha(alpha)" },//weiter
+		{"trigger": ".SetAlpha", "contents": ".SetAlpha(alpha)" },
 		{"trigger": ".SetImage", "contents": ".SetImage(fileName,width,height)" },
 		{"trigger": ".SetOnLoad", "contents": ".SetOnLoad(callback)" },
 		{"trigger": ".Save", "contents": ".Save(fileName)" },
@@ -138,21 +138,54 @@
 		{"trigger": ".DrawArc", "contents": ".DrawArc(x1,y1,x2,y2,start,sweep)" },
 		{"trigger": ".DrawLine", "contents": ".DrawLine(x1,y1,x2,y2)" },
 		{"trigger": ".DrawRectangle", "contents": ".DrawRectangle(x1,y1,x2,y2)" },
-		{"trigger": ".DrawText", "contents": ".DrawText" },
-		{"trigger": "", "contents": "" },
-		{"trigger": "", "contents": "" },
-		{"trigger": "", "contents": "" },
-		{"trigger": "", "contents": "" },
-		{"trigger": "", "contents": "" },
-		{"trigger": "", "contents": "" },
-		{"trigger": "", "contents": "" },
-		{"trigger": "", "contents": "" },
-		{"trigger": "", "contents": "" },
-		{"trigger": "", "contents": "" },
-		{"trigger": "", "contents": "" },
-		{"trigger": "", "contents": "" },
-		{"trigger": "", "contents": "" },
-		{"trigger": "", "contents": "" },
+		{"trigger": ".DrawText", "contents": ".DrawText(text,x,y)" }, 
+		{"trigger": ".Update", "contents": ".Update()" },
+		{"trigger": ".SetAutoUpdate", "contents": ".SetAutoUpdate(onoff)" },
+		{"trigger": ".SetColor", "contents": ".SetColor(colorcode)" },
+		{"trigger": ".SetLineWidth", "contents": ".SetLineWidth(width)" },
+		{"trigger": ".SetPaintColor", "contents": ".SetPaintColor(colorcode)" },
+		{"trigger": ".SetPaintStyle", "contents": ".SetPaintStyle(style)" },
+		{"trigger": ".Rotate", "contents": ".Rotate(angle,pivotX,pivotY)" },
+		{"trigger": ".Move", "contents": ".Move(x,y)" },
+		{"trigger": ".Scale", "contents": ".Scale(x,y)" },
+		{"trigger": ".Skew", "contents": ".Skew(x,y)" },
+		{"trigger": ".Transform", "contents": ".Transform(matrix)" },
+		{"trigger": ".Reset", "contents": ".Reset()" },
+
+//Layout
+
+		{"trigger": "app.CreateLayout", "contents": "app.CreateLayout(type,options)" },
+		{"trigger": ".SetBackGradient", "contents": ".SetBackGradient(color1,color2,color3)" },
+		{"trigger": ".SetBackGradientRadial", "contents": ".SetBackGradientRadial(x,y,r,color1,color2,color3)" },
+		{"trigger": ".SetOrientation", "contents": ".SetOrientation(orient)" },
+		{"trigger": ".AddChild", "contents": ".AddChild(child)" },
+		{"trigger": ".RemoveChild", "contents": ".RemoveChild(child)" },
+		{"trigger": ".DestroyChild", "contents": ".DestroyChild(child)" },
+		{"trigger": ".Animate", "contents": ".Animate(type,callback)" },
+
+//List
+
+		{"trigger": "app.CreateList", "contents": "app.CreateList(list,width,height,options)" },
+		{"trigger": ".SetList", "contents": ".SetList(list,delimeter)" },
+		{"trigger": ".GetList", "contents": ".GetList(delimeter)" }
+		/*
+		{"trigger": "", "contents": "" }, 
+		{"trigger": "", "contents": "" }, 
+		{"trigger": "", "contents": "" }, 
+		{"trigger": "", "contents": "" }, 
+		{"trigger": "", "contents": "" }, 
+		{"trigger": "", "contents": "" }, 
+		{"trigger": "", "contents": "" }, 
+		{"trigger": "", "contents": "" }, 
+		{"trigger": "", "contents": "" }, 
+		{"trigger": "", "contents": "" }, 
+		{"trigger": "", "contents": "" }, 
+		{"trigger": "", "contents": "" }, 
+		{"trigger": "", "contents": "" }, 
+		{"trigger": "", "contents": "" }, 
+		{"trigger": "", "contents": "" }, 
+		{"trigger": "", "contents": "" }, 
+
 
 
 		*/
